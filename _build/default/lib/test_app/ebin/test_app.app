@@ -6,7 +6,7 @@
               {included_applications,[]},
               {applications,[kernel,stdlib,nova]},
               {env,[]},
-              {modules,[main_controller,main_dtl,test_app_app,
+              {modules,[login_dtl,main_controller,main_dtl,test_app_app,
                         test_app_main_dtl,test_app_sup]},
               {maintainers,[]},
               {licenses,["Apache 2.0"]},
