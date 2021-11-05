@@ -1,0 +1,13 @@
+{application,test_app,
+             [{description,"test_app managed by Nova"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{test_app_app,[]}},
+              {included_applications,[]},
+              {applications,[kernel,stdlib,nova]},
+              {env,[]},
+              {modules,[main_controller,main_dtl,test_app_app,
+                        test_app_main_dtl,test_app_sup]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
